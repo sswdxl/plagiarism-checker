@@ -1,4 +1,4 @@
-from dotenv-python import load_dotenv
+from dotenv import load_dotenv
 from flask import Flask
 from flask import render_template
 from flask import request
