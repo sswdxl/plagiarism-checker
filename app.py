@@ -21,7 +21,7 @@ NROWS = 20000
 
 def initialize_pinecone():
     ##load_dotenv()
-    PINECONE_API_KEY = 97b6bc79-b23c-4dee-a866-5295b707f8e7
+    PINECONE_API_KEY = "97b6bc79-b23c-4dee-a866-5295b707f8e7"
     pinecone.init(api_key=PINECONE_API_KEY)
 
 def delete_existing_pinecone_index():
